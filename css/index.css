@@ -1,0 +1,15 @@
+
+
+h3 {
+	font-size: 120%;
+	padding: .25em 0 .5em 25px;
+	cursor: pointer;
+	background: url(../img/plus.png) no-repeat left center;
+}
+h3.minus {
+	background: url(../img/minus.png) no-repeat left center;
+}
+
+table {
+    display: none;
+}

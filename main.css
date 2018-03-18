@@ -1,0 +1,215 @@
+/* the styles for the html elements */
+html {
+    background-color: rgb(192, 192, 192);
+}
+body {
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid black;
+    padding: .5em 2em;
+}
+header {
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+header h1 {
+    margin: 0;
+    padding: .5em 0;
+    color: black;
+    text-align: center;
+}
+main {
+    margin: 0;
+}
+aside {
+    float: left;
+    width: 150px;
+}
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+nav ul li {
+    padding-bottom: 0.5em;
+}
+section {
+    float: left;
+    width: 75%;
+    margin-left: 20px;
+    padding-bottom: 1.5em;
+}
+footer {
+    clear: both;
+    margin-top: 1em;
+    border-top: 2px solid black;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+h1 {
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+h1, h2 {
+    color: rgb(208, 133, 4);
+}
+ul {
+    margin: 0 0 1em 0;
+    padding: 0 0 0 2.5em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: rgb(41, 64, 124);
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(208, 133, 4);
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px dashed black;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+/* the styles for classes */
+.right {
+    text-align: right;
+}
+.last_paragraph {
+    margin-bottom: 2em;	
+}
+.margin_top_increase {
+    margin-top: 1em;	
+}
+
+/********************************************************************
+* Additional styles for the Sales Manager application
+********************************************************************/
+#add_car_form {
+    margin: .5em 0 1em;
+}
+#add_car_form label {
+    width: 6em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    float: left;
+}
+#add_car_form input {
+    float: left;
+    height: 2em;
+}
+#add_car_form input[text] {
+    width: 15em;
+}
+
+.vertical-menu {
+    width: 150px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.car-details{
+    margin: 10px;
+    width: 200px;
+    float: left;
+    display: inline-block;
+
+}
+
+.button  {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.del-edit input{
+    float: left;
+    display: inline-block;
+    width: 42%;
+    height: 70%;
+    margin: 3%;
+}
+
+.mark-sold {
+    display: inline-block;
+    width: 100%; 
+    margin:0 auto;
+}
+
+.sales-pic{
+    display: inline-block;
+    float: left;
+    margin-bottom: 50px;
+}
+
+:invalid {
+    outline: none;
+    border-color: #ff0000;
+}
+
+:valid {
+    outline: none;
+    border-color: #00ff00;
+}
+
+
+
+/*div.img {
+    margin: 2px;
+    border: 1px solid green;
+    float: left;
+    width: 163px;
+}
+
+div.img:hover {
+    border: 1px solid orange;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}*/
